@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!-- A suite can contain multiple Test.-->
+<!-- A test can contain 1 classes tag -->
+<!-- A classes tag can contain multiple class-->
+
+<suite name="CricSuite">
+	<listeners>
+		<listener class-name="Listener.ListnerClass"></listener>
+	</listeners>
+	
+	<test name="CricTest">
+		<classes>
+			<class name="TestNG.CricBuzz"></class>
+			<!-- <class name="TestNG.Google"></class> -->
+		</classes>
+	</test>
+	
+	<test name="GoogleTest">
+		<classes>
+			<class name="TestNG.Google"></class>
+		</classes>
+	</test>
+</suite>
