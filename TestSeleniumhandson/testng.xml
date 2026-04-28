@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <parameter name="userName" value="Prerna"></parameter>
+	<parameter name="emailId" value="PJ124"></parameter>
+	<classes>
+		<class name="prac1.practiceParameters"></class>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
